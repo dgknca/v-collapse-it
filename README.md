@@ -1,6 +1,6 @@
 # v-collapse-it
 
-A super simple Vue directive to expand/collapse elements.
+A super simple Vue 3 directive to expand/collapse elements.
 
 ## Install
 
