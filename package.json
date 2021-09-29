@@ -1,0 +1,36 @@
+{
+  "name": "v-collapse-it",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview",
+    "format": "prettier --write .",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.vue",
+    "lint-fix": "eslint --fix . --ext .js,.jsx,.ts,.tsx,.vue"
+  },
+  "main": "./dist/v-collapse-it.umd.js",
+  "module": "./dist/v-collapse-it.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/v-collapse-it.es.js",
+      "require": "./dist/v-collapse-it.umd.js"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "@vitejs/plugin-vue": "^1.9.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.18.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3",
+    "vite": "^2.5.10",
+    "vite-plugin-eslint": "^1.3.0",
+    "vue": "^3.2.13",
+    "vue-eslint-parser": "^7.11.0",
+    "vue-tsc": "^0.3.0"
+  }
+}
